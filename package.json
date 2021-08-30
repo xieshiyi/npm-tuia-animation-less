@@ -1,0 +1,37 @@
+{
+  "name": "tuia-animation-less",
+  "version": "1.0.7",
+  "description": "",
+  "main": "index.less",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuia-fed/tuia-animation-less"
+  },
+  "homepage": "https://tuia-fed.github.io/tuia-animation-less/",
+  "author": "xieshiyi",
+  "license": "ISC",
+  "animateConfig": {
+    "prefix": "animate__"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserslist": [
+    "> 3%",
+    "last 2 versions"
+  ],
+  "style": "./index.less",
+  "jspm": {
+    "main": "index.less!",
+    "format": "global",
+    "directories": {
+      "lib": "./"
+    }
+  },
+  "files": [
+    "animation.less",
+    "base.less",
+    "business.less",
+    "index.less"
+  ]
+}
