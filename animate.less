@@ -3,17 +3,6 @@
 * 基础使用的animate class
 */
 
-:root {
-  --animate-duration: 1s;
-  --animate-delay: 1s;
-  --animate-repeat: 1;
-}
-
-.tuia_animate_animated {
-  animation-duration: 1s;
-  animation-fill-mode: both;
-}
-
 @keyframes bounce {
   from,
   20%,
@@ -216,4 +205,21 @@
   animation-iteration-count: infinite;
   animation-delay: 0.3s;
   animation-direction: alternate;
+}
+
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.tuia_animate_flash {
+  animation-name: flash;
 }
